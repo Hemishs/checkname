@@ -100,7 +100,8 @@ public class NewJSFManagedBean1 implements Serializable{
     public String getname() {
         Connection conn = null;
         //String url = "jdbc:mysql://10.10.242.20:3306/world?autoReconnect=true&useSSL=false";
-         String url = "jdbc:mysql://localhost:3306/whoami";
+         //String url = "jdbc:mysql://localhost:3306/whoami";
+        String url = "jdbc:mysql://10.130.26.187:3306/whoami";
         String user = "root";
         //String pwd = "redhat";
         String pwd = "";
