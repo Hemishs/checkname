@@ -64,8 +64,8 @@ public class NewJSFManagedBean1 implements Serializable{
         //String url = "jdbc:mysql://localhost:3306/whoami";
         String url = "jdbc:mysql://10.130.26.187:3306/whoami";
         String user = "root";
-        //String pwd = "redhat";
-        String pwd = "";
+        String pwd = "redhat";
+        //String pwd = "";
         String query = "insert into users(user_name,flag) values('"+userName+"','1');";
         System.out.println("Query  -- " + query);
         String username = "";
@@ -104,8 +104,8 @@ public class NewJSFManagedBean1 implements Serializable{
          //String url = "jdbc:mysql://localhost:3306/whoami";
         String url = "jdbc:mysql://10.130.26.187:3306/whoami";
         String user = "root";
-        //String pwd = "redhat";
-        String pwd = "";
+        String pwd = "redhat";
+        //String pwd = "";
         String query = "select user_id, user_name, flag from users";
         String username = "";
         ResultSet rs = null;
